@@ -6,7 +6,7 @@ import { z } from 'zod';
 import type { User } from '@/app/lib/definitions';
 import bcrypt from 'bcrypt';
 import postgres from 'postgres';
- import { signIn } from '@/auth';
+//  import { signIn } from '@/auth';
 import { AuthError } from 'next-auth';
 
 
